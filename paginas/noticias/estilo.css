@@ -1,0 +1,138 @@
+@import url(/estilo/variaveis.css);
+*{
+    font-family: "Madimi One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+h3{
+    text-align: center;
+}
+img{
+    width: 1190px;
+}
+.imagem__grande{
+    z-index: 1;
+    background-image: url(/imagens/elevador001.webp);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: 100%;
+    height: 450px;
+    margin: 0;
+}
+.portifolio{
+    background-color: #FFF;
+}
+
+
+.titulo{
+
+    font-size: 80px;
+    text-align: left;
+}
+.branco{
+    color: #FFF;
+}
+.preto{
+    margin-left: 120px;
+
+}
+.centralizar__vertical{
+    padding-top: 80px;
+    align-items: center;
+}
+
+
+.lista__links{
+    display: flex;
+
+    li{
+        margin-left: 12px;
+        list-style: none;
+    }
+    li:hover{
+        color: blue;
+        cursor: pointer;
+    }
+}
+.lista{
+    width: 85%;
+    margin: auto;
+}
+.itens__lista{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 3px 0;
+
+    li{
+        border-radius: 12px;
+        background-color: #063254;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 180px;
+        height: 58px;
+        list-style: none;
+        margin-left: 20px;
+    }
+}
+.centralizar{
+    text-align: center;
+}
+.direita{
+    text-align: right;
+}
+.conteudo{
+    border-radius: 8px;
+    border: 2px solid;
+    display: flex;
+}
+.titulo__artigo{
+    display: flex;
+    justify-content: center;
+}
+.artigo{
+    display: flex;
+    border-radius: 6px;
+    border: 2px solid;
+    color: #000;
+    margin: 4px auto;
+    width: 33%;
+    background-color: #FFF;
+}
+.conteudo__artigo{
+    font-family: arial;
+    margin: 6px 20px;
+    align-items: center;
+    text-align: justify;
+    padding: 2px 1px;
+    font-size: 20px;
+}
+.sobre__estilo{
+    margin: 20px auto;
+    padding: 12px 4px;
+    background-color: #F3F3F3;
+    width: 70%;
+    color: #000;
+}
+.h2{
+    font-size: 40px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #063254;
+    color: #000;
+    height: 50px;
+
+}
